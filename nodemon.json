@@ -1,0 +1,8 @@
+{
+  "env": {
+      "MONGO_USER": "atefmme499",
+      "MONGO_PASSWORD": "GooGleItNoW96321",
+      "MONGO_DEFAULT_DATABASE": "agua",
+      "STRIPE_KEY": "sk_test_51NeHUCExIU6xXgdAnsOsilINYcE3V6UjBtlvzO6atE5ZeY14HNAFhYfWrfpsmq70RLC494K4zP1WApz9YPXAyqEI00Ay3mb7jv"
+  }
+}

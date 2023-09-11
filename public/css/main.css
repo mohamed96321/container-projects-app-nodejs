@@ -1,0 +1,100 @@
+:root {
+  --clr-off-white: #F7E9E9;
+  --clr-white: #FFFFFF;
+  --clr-black: #111010;
+  --clr-primary-100: #0C4047;
+  --clr-primary-alt: #d2d3d3;
+  --clr-primary-300: #535353;
+  --clr-primary-500: #B50E17;
+  --clr-primary-600: #551A8B;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main-header {
+  justify-content: space-between;
+  position: sticky;
+  background: var(--clr-white);
+}
+
+.logo-name-link {
+  font-size: 2rem;
+  font-weight: 750;
+  color: var(--clr-primary-500);
+}
+
+.pad {
+  padding: 2rem 4rem 0;
+}
+
+.dark-mode {
+  cursor: pointer;
+}
+
+.sgin-up {
+  background: var(--clr-primary-500);
+  color: var(--clr-white);
+  border-radius: 12px;
+  padding: 8px 10px;
+  font-size: 0.98rem;
+}
+
+.dark-mode img {
+  width: 28px;
+  height: 28px;
+  filter: invert(20%) sepia(50%) saturate(2476%) hue-rotate(360deg) brightness(118%) contrast(119%);
+}
+
+.log-in {
+  font-size: 1.12rem;
+  color: var(--clr-primary-500);
+  font-weight: 500;
+}
+
+@media (max-width: 750px) {
+  .main-header {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .sgin-up {
+    padding: 6px 8px;
+    font-size: 14px;
+  }
+  .pad {
+    padding-inline: 3px;
+  }
+  .flex {
+    gap: 0.325rem;
+  }
+}

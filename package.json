@@ -1,0 +1,30 @@
+{
+  "name": "todo-projects-app",
+  "version": "1.0.0",
+  "description": "useful-project-todo-app-nodejs-expressjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server.js",
+    "start-server": "node server.js"
+  },
+  "author": "Mohammed Atef",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.3",
+    "nodemailer": "^6.9.4",
+    "pug": "^3.0.2",
+    "serve-favicon": "^2.5.0"
+  }
+}
